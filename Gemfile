@@ -25,6 +25,12 @@ gem "sass-rails", "~> 5.0"
 gem "simple_form"
 gem "title"
 gem "uglifier"
+gem 'angular-rails-templates'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-bootstrap'
+  gem 'rails-assets-angular'
+end
 
 group :development do
   gem "spring"
