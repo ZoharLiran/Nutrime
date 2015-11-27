@@ -26,6 +26,7 @@ gem 'simple_form'
 gem 'title'
 gem 'uglifier'
 gem 'angular-rails-templates'
+gem 'devise'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
