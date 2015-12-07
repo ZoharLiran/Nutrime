@@ -2,7 +2,7 @@ App = angular.module('Nutrime', ['mobile-angular-ui']);
 
 App.config(function($httpProvider) {
   var csrfToken = document.getElementsByName('csrf-token')[0];
-  if(csrfToken) {
+  if (csrfToken) {
     $httpProvider.defaults.headers.common['X-CSRF-Token'] = csrfToken.content;
   }
 
