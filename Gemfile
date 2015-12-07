@@ -27,6 +27,7 @@ gem 'title'
 gem 'uglifier'
 gem 'angular-rails-templates'
 gem 'devise'
+gem 'omniauth-facebook'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
